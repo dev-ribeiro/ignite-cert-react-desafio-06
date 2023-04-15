@@ -3,15 +3,15 @@ export const defaultTheme = {
         highlight: "#FFBA08",
 
         light: {
-            info: "#DADADA",
-            text: "#F5F8FA",
-            white: "#FFFFFF"
+            100: "#DADADA",
+            500: "#F5F8FA",
+            900: "#FFFFFF"
         },
 
         dark: {
-            info: "#FFFFFF",
-            text: "#47585B",
-            black: "#000000"
+            100: "#FFFFFF",
+            500: "#47585B",
+            900: "#000000"
         }
     }
 }
