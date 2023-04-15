@@ -1,4 +1,4 @@
-import { Box, BoxProps, Flex, FlexProps, Image } from "@chakra-ui/react"
+import { Flex, FlexProps, Image } from "@chakra-ui/react"
 
 interface Props extends FlexProps {
     src: string
@@ -15,7 +15,6 @@ export function Banner({ src, alt, ...props }: Props) {
             <Image
                 src={src}
                 alt={alt}
-                // w="100%"
             />
         </Flex>
     )
