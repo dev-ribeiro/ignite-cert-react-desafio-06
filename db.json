@@ -3,37 +3,274 @@
         {
             "id": 0,
             "name": "América do Norte",
-            "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=899&q=80"
+            "image": "https://images.unsplash.com/photo-1485738422979-f5c462d49f74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=899&q=80",
+            "slug": "north-america",
+            "summary": "Um continente diverso, dinâmico, e oportunidades econômicas",
+            "countries": [
+                {
+                    "country": "Estados Unidos",
+                    "image": ""
+                },
+                {
+                    "country": "Canadá",
+                    "image": ""
+                },
+                {
+                    "country": "México",
+                    "image": ""
+                },
+                {
+                    "country": "Guatemala",
+                    "image": ""
+                },
+                {
+                    "country": "Cuba",
+                    "image": ""
+                },
+                {
+                    "country": "Haiti",
+                    "image": ""
+                },
+                {
+                    "country": "República Dominicana",
+                    "image": ""
+                },
+                {
+                    "country": "Honduras",
+                    "image": ""
+                }
+            ],
+            "amountDetails": {
+                "coutries": 3,
+                "languages": 500,
+                "cities": 39000
+            }
         },
-
         {
             "id": 1,
             "name": "América do Sul",
-            "image": "https://images.unsplash.com/photo-1580619305218-8423a7ef79b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80"
+            "image": "https://images.unsplash.com/photo-1580619305218-8423a7ef79b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80",
+            "slug": "south-america",
+            "summary": "Continente com uma energia vibrante e uma riqueza humana única",
+            "countries": [
+                {
+                    "country": "Brasil",
+                    "image": ""
+                },
+                {
+                    "country": "Argentina",
+                    "image": ""
+                },
+                {
+                    "country": "Colômbia",
+                    "image": ""
+                },
+                {
+                    "country": "Peru",
+                    "image": ""
+                },
+                {
+                    "country": "Venezuela",
+                    "image": ""
+                },
+                {
+                    "country": "Chile",
+                    "image": ""
+                },
+                {
+                    "country": "Equador",
+                    "image": ""
+                },
+                {
+                    "country": "Bolívia",
+                    "image": ""
+                }
+            ],
+            "amountDetails": {
+                "coutries": 12,
+                "languages": 400,
+                "cities": 50000
+            }
         },
-
         {
             "id": 2,
             "name": "Ásia",
-            "image": "https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=842&q=80"
+            "image": "https://images.unsplash.com/photo-1493780474015-ba834fd0ce2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=842&q=80",
+            "slug": "asia",
+            "summary": "Continente com uma história milenar, culturas ricas e complexas, paisagens impressionantes e uma mistura única de tradição e modernidade",
+            "countries": [
+                {
+                    "country": "China",
+                    "image": ""
+                },
+                {
+                    "country": "Índia",
+                    "image": ""
+                },
+                {
+                    "country": "Indonésia",
+                    "image": ""
+                },
+                {
+                    "country": "Paquistão",
+                    "image": ""
+                },
+                {
+                    "country": "Bangladesh",
+                    "image": ""
+                },
+                {
+                    "country": "Japão",
+                    "image": ""
+                },
+                {
+                    "country": "Filipinas",
+                    "image": ""
+                }
+            ],
+            "amountDetails": {
+                "coutries": 49,
+                "languages": 2300,
+                "cities": 45000
+            }
         },
-
         {
             "id": 3,
             "name": "África",
-            "image": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+            "image": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80",
+            "slug": "africa",
+            "summary": "Continente com paisagens espetaculares e uma história rica e complexa, mas também enfrentando desafios socioeconômicos significativos",
+            "countries": [
+                {
+                    "country": "Nigéria",
+                    "image": ""
+                },
+                {
+                    "country": "Egito",
+                    "image": ""
+                },
+                {
+                    "country": "Congo",
+                    "image": ""
+                },
+                {
+                    "country": "Etiópia",
+                    "image": ""
+                },
+                {
+                    "country": "Tanzânia",
+                    "image": ""
+                },
+                {
+                    "country": "África do Sul",
+                    "image": ""
+                },
+                {
+                    "country": "Quênia",
+                    "image": ""
+                },
+                {
+                    "country": "Uganda",
+                    "image": ""
+                }
+            ],
+            "amountDetails": {
+                "coutries": 54,
+                "languages": 2000,
+                "cities": 20000
+            }
         },
-
         {
             "id": 4,
             "name": "Europa",
-            "image": "https://images.unsplash.com/photo-1491557345352-5929e343eb89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            "image": "https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=904&q=80",
+            "slug": "europe",
+            "summary": "O continente mais antigo do mundo",
+            "countries": [
+                {
+                    "country": "Rússia",
+                    "image": ""
+                },
+                {
+                    "country": "Alemanha",
+                    "image": ""
+                },
+                {
+                    "country": "Reino Unido",
+                    "image": ""
+                },
+                {
+                    "country": "França",
+                    "image": ""
+                },
+                {
+                    "country": "Itália",
+                    "image": ""
+                },
+                {
+                    "country": "Espanha",
+                    "image": ""
+                },
+                {
+                    "country": "Ucrânia",
+                    "image": ""
+                },
+                {
+                    "country": "Polônia",
+                    "image": ""
+                }
+            ],
+            "amountDetails": {
+                "coutries": 80,
+                "languages": 200,
+                "cities": 130000
+            }
         },
-
         {
             "id": 5,
             "name": "Oceania",
-            "image": "https://plus.unsplash.com/premium_photo-1661963939186-973fd7a5c452?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            "image": "https://plus.unsplash.com/premium_photo-1661963939186-973fd7a5c452?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "slug": "oceania",
+            "summary": "A Oceania é um vasto continente insular, repleto de paisagens exóticas e ecossistemas únicos",
+            "countries": [
+                {
+                    "country": "Australia",
+                    "image": ""
+                },
+                {
+                    "country": "New Zealand",
+                    "image": ""
+                },
+                {
+                    "country": "Papua New Guinea",
+                    "image": ""
+                },
+                {
+                    "country": "Fiji",
+                    "image": ""
+                },
+                {
+                    "country": "Solomon Islands",
+                    "image": ""
+                },
+                {
+                    "country": "Vanuatu",
+                    "image": ""
+                },
+                {
+                    "country": "New Caledonia",
+                    "image": ""
+                },
+                {
+                    "country": "French Polynesia",
+                    "image": ""
+                }
+            ],
+            "amountDetails": {
+                "coutries": 14,
+                "languages": 1000,
+                "cities": 10000
+            }
         }
     ]
 }
