@@ -32,7 +32,7 @@ export function Carousel({ continents }: Props) {
             >
                 {continents.map(continent => (
                     <SwiperSlide key={continent.id}>
-                        <Link href={`/continent/${continent.slug}`}>
+                        <Link href={`/continents/${continent.slug}`}>
                             <Flex
                                 w="100%"
                                 h="100%"

@@ -15,6 +15,7 @@ export interface Continent {
     image: string
     slug: string
     summary: string
+    description: string
     countries: Country[]
     amountDetails: AmountDetails
 }
