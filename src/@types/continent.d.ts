@@ -1,6 +1,8 @@
 interface Country {
     country: string;
+    city: string;
     image: string;
+    flag: string;
 }
 
 interface AmountDetails {

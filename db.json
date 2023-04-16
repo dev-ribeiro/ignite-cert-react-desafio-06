@@ -9,42 +9,29 @@
             "countries": [
                 {
                     "country": "Estados Unidos",
-                    "image": ""
+                    "city": "New York",
+                    "image": "https://images.unsplash.com/photo-1522083165195-3424ed129620?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=997&q=80",
+                    "flag": "fi fi-us"
                 },
                 {
                     "country": "Canadá",
-                    "image": ""
+                    "city": "Vancouver",
+                    "image": "https://images.unsplash.com/photo-1519331582073-283f1a211a3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=972&q=80",
+                    "flag": "fi fi-ca"
                 },
                 {
                     "country": "México",
-                    "image": ""
-                },
-                {
-                    "country": "Guatemala",
-                    "image": ""
-                },
-                {
-                    "country": "Cuba",
-                    "image": ""
-                },
-                {
-                    "country": "Haiti",
-                    "image": ""
-                },
-                {
-                    "country": "República Dominicana",
-                    "image": ""
-                },
-                {
-                    "country": "Honduras",
-                    "image": ""
+                    "city": "Cabo San Lucas",
+                    "image": "https://images.unsplash.com/photo-1512813389649-acb9131ced20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+                    "flag": "fi fi-mx"
                 }
             ],
             "amountDetails": {
-                "coutries": 3,
+                "countries": 3,
                 "languages": 500,
-                "cities": 39000
-            }
+                "cities": 346
+            },
+            "description": "A América do Norte é o terceiro maior continente do mundo, abrangendo uma área de aproximadamente 24,7 milhões de km². É composta por três países principais: Canadá, Estados Unidos e México, que apresentam uma grande diversidade geográfica e cultural. A região é conhecida por suas paisagens deslumbrantes, desde as Montanhas Rochosas até as praias ensolaradas da Califórnia. A América do Norte é também um centro importante de comércio, tecnologia e inovação, e é lar de algumas das maiores empresas e universidades do mundo."
         },
         {
             "id": 1,
@@ -55,41 +42,27 @@
             "countries": [
                 {
                     "country": "Brasil",
-                    "image": ""
+                    "city": "Rio de Janeiro",
+                    "image": "",
+                    "flag": ""
                 },
                 {
                     "country": "Argentina",
-                    "image": ""
+                    "city": "Buenos Aires",
+                    "image": "",
+                    "flag": ""
                 },
                 {
                     "country": "Colômbia",
-                    "image": ""
-                },
-                {
-                    "country": "Peru",
-                    "image": ""
-                },
-                {
-                    "country": "Venezuela",
-                    "image": ""
-                },
-                {
-                    "country": "Chile",
-                    "image": ""
-                },
-                {
-                    "country": "Equador",
-                    "image": ""
-                },
-                {
-                    "country": "Bolívia",
-                    "image": ""
+                    "city": "Bogotá",
+                    "image": "",
+                    "flag": ""
                 }
             ],
             "amountDetails": {
-                "coutries": 12,
+                "countries": 12,
                 "languages": 400,
-                "cities": 50000
+                "cities": 401
             }
         },
         {
@@ -129,9 +102,9 @@
                 }
             ],
             "amountDetails": {
-                "coutries": 49,
+                "countries": 49,
                 "languages": 2300,
-                "cities": 45000
+                "cities": 1164
             }
         },
         {
@@ -175,9 +148,9 @@
                 }
             ],
             "amountDetails": {
-                "coutries": 54,
+                "countries": 54,
                 "languages": 2000,
-                "cities": 20000
+                "cities": 518
             }
         },
         {
@@ -221,9 +194,9 @@
                 }
             ],
             "amountDetails": {
-                "coutries": 80,
+                "countries": 80,
                 "languages": 200,
-                "cities": 130000
+                "cities": 414
             }
         },
         {
@@ -267,9 +240,9 @@
                 }
             ],
             "amountDetails": {
-                "coutries": 14,
+                "countries": 14,
                 "languages": 1000,
-                "cities": 10000
+                "cities": 41
             }
         }
     ]
