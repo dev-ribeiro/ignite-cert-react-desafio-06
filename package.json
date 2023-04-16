@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "server": "json-server --watch db.json -p 3333 --nc"
+    "server": "json-server --watch db.json -p 3333 --no-cors"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.5",
