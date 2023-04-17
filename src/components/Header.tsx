@@ -20,7 +20,7 @@ export function Header({ hasBackIcon }: Props) {
         >
             {hasBackIcon && (
                 <Box
-                    pl="5rem"
+                    pl={["1rem", "5rem"]}
                     position="absolute"
                     left={0}
                 >
