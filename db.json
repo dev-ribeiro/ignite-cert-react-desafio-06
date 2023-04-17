@@ -43,27 +43,28 @@
                 {
                     "country": "Brasil",
                     "city": "Rio de Janeiro",
-                    "image": "",
-                    "flag": ""
+                    "image": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+                    "flag": "fi fi-br"
                 },
                 {
                     "country": "Argentina",
                     "city": "Buenos Aires",
-                    "image": "",
-                    "flag": ""
+                    "image": "https://images.unsplash.com/photo-1656020212093-7679411001b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80",
+                    "flag": "fi fi-ar"
                 },
                 {
                     "country": "Colômbia",
                     "city": "Bogotá",
-                    "image": "",
-                    "flag": ""
+                    "image": "https://images.unsplash.com/photo-1568632234159-f7f644f0a178?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+                    "flag": "fi fi-co"
                 }
             ],
             "amountDetails": {
                 "countries": 12,
                 "languages": 400,
                 "cities": 401
-            }
+            },
+            "description": "A América do Sul é o quarto maior continente do mundo em área e o quinto em população. É conhecida por sua diversidade geográfica, cultural e histórica, com uma vasta gama de paisagens que incluem a Floresta Amazônica, a Cordilheira dos Andes e as praias deslumbrantes do litoral. O continente abriga uma grande variedade de espécies animais e vegetais, muitas das quais são endêmicas da região. A América do Sul é também o lar de muitas culturas indígenas, bem como de colonos europeus e africanos que influenciaram a arte, a música, a religião e a culinária do continente. Com uma história complexa e uma rica diversidade cultural, a América do Sul é um destino fascinante para quem deseja explorar suas belezas naturais e culturais."
         },
         {
             "id": 2,
@@ -74,38 +75,29 @@
             "countries": [
                 {
                     "country": "China",
-                    "image": ""
+                    "city": "Pequim",
+                    "image": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+                    "flag": "fi fi-cn"
                 },
                 {
                     "country": "Índia",
-                    "image": ""
-                },
-                {
-                    "country": "Indonésia",
-                    "image": ""
-                },
-                {
-                    "country": "Paquistão",
-                    "image": ""
-                },
-                {
-                    "country": "Bangladesh",
-                    "image": ""
+                    "city": "Dubai",
+                    "image": "https://images.unsplash.com/photo-1601240083375-0f2b24a16d55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80",
+                    "flag": "fi fi-in"
                 },
                 {
                     "country": "Japão",
-                    "image": ""
-                },
-                {
-                    "country": "Filipinas",
-                    "image": ""
+                    "city": "Tóquio",
+                    "image": "https://images.unsplash.com/photo-1557409518-691ebcd96038?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+                    "flag": "fi fi-jp"
                 }
             ],
             "amountDetails": {
                 "countries": 49,
                 "languages": 2300,
                 "cities": 1164
-            }
+            },
+            "description": "A Ásia é o maior e mais populoso continente do mundo, abrangendo cerca de um terço da área total do planeta. É caracterizada por uma diversidade cultural e geográfica imensa, com uma vasta gama de culturas, religiões, idiomas e tradições. A Ásia abriga muitos dos maiores centros urbanos do mundo, bem como algumas das paisagens naturais mais impressionantes, incluindo as majestosas montanhas do Himalaia, os desertos áridos do Oriente Médio e as florestas tropicais exuberantes do sudeste asiático. Com uma história que remonta a milhares de anos, a Ásia foi o berço de muitas das maiores civilizações da história, como a China, a Índia e o Japão, que deixaram um legado cultural duradouro na arte, arquitetura, literatura e filosofia. A Ásia é um continente fascinante, repleto de contrastes e diversidade, que continua a desafiar e inspirar os viajantes de todo o mundo."
         },
         {
             "id": 3,
@@ -115,43 +107,30 @@
             "summary": "Continente com paisagens espetaculares e uma história rica e complexa, mas também enfrentando desafios socioeconômicos significativos",
             "countries": [
                 {
-                    "country": "Nigéria",
-                    "image": ""
-                },
-                {
                     "country": "Egito",
-                    "image": ""
-                },
-                {
-                    "country": "Congo",
-                    "image": ""
-                },
-                {
-                    "country": "Etiópia",
-                    "image": ""
-                },
-                {
-                    "country": "Tanzânia",
-                    "image": ""
+                    "city": "Cairo",
+                    "image": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fpcm8lMjBlZ2l0b3xlbnwwfDB8MHx8&auto=format&fit=crop&w=400&q=60",
+                    "flag": "fi fi-eg"
                 },
                 {
                     "country": "África do Sul",
-                    "image": ""
+                    "city": "Pretoria",
+                    "image": "https://images.unsplash.com/photo-1631797173882-2eb9ae7c3abe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+                    "flag": "fi fi-za"
                 },
                 {
                     "country": "Quênia",
-                    "image": ""
-                },
-                {
-                    "country": "Uganda",
-                    "image": ""
+                    "city": "Nairobi",
+                    "image": "https://images.unsplash.com/photo-1664181219549-01578b9dc3cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+                    "flag": "fi fi-ke"
                 }
             ],
             "amountDetails": {
                 "countries": 54,
                 "languages": 2000,
                 "cities": 518
-            }
+            },
+            "description": "A África é o segundo maior continente do mundo em área e população, conhecido por sua rica diversidade cultural, geográfica e biológica. É lar de algumas das paisagens naturais mais impressionantes do mundo, incluindo as majestosas savanas, desertos áridos, florestas tropicais e montanhas imponentes. A África também é o berço de algumas das civilizações mais antigas do mundo, incluindo o Egito antigo, que deixou um legado cultural duradouro na arte, arquitetura, literatura e filosofia. A diversidade cultural do continente é evidente em seus mais de 3.000 grupos étnicos e na variedade de línguas e religiões praticadas. No entanto, a África também enfrenta muitos desafios, incluindo a pobreza, a fome, a instabilidade política e a ameaça de doenças como a malária e o HIV/AIDS. Ainda assim, a África é um continente incrivelmente fascinante e inspirador, com uma rica história e uma promessa de um futuro mais próspero e sustentável."
         },
         {
             "id": 4,
@@ -161,43 +140,42 @@
             "summary": "O continente mais antigo do mundo",
             "countries": [
                 {
-                    "country": "Rússia",
-                    "image": ""
-                },
-                {
                     "country": "Alemanha",
-                    "image": ""
+                    "city": "Berlim",
+                    "image": "https://images.unsplash.com/photo-1618259278412-2819cbdea4dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=821&q=80",
+                    "flag": "fi fi-de"
                 },
                 {
                     "country": "Reino Unido",
-                    "image": ""
+                    "city": "London",
+                    "image": "https://images.unsplash.com/photo-1517394834181-95ed159986c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80",
+                    "flag": "fi fi-gb"
                 },
                 {
                     "country": "França",
-                    "image": ""
+                    "city": "Paris",
+                    "image": "https://images.unsplash.com/photo-1508050919630-b135583b29ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+                    "flag": "fi fi-fr"
                 },
                 {
                     "country": "Itália",
-                    "image": ""
+                    "city": "Veneza",
+                    "image": "https://images.unsplash.com/photo-1558271736-cd043ef2e855?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+                    "flag": "fi fi-it"
                 },
                 {
                     "country": "Espanha",
-                    "image": ""
-                },
-                {
-                    "country": "Ucrânia",
-                    "image": ""
-                },
-                {
-                    "country": "Polônia",
-                    "image": ""
+                    "city": "Madrid",
+                    "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+                    "flag": "fi fi-es"
                 }
             ],
             "amountDetails": {
                 "countries": 80,
                 "languages": 200,
                 "cities": 414
-            }
+            },
+            "description": "A Europa é o segundo menor continente em área, mas é o terceiro mais populoso do mundo, conhecido por sua rica história, diversidade cultural e cidades cosmopolitas. É um continente repleto de contrastes, com paisagens naturais que variam desde as montanhas cobertas de neve dos Alpes até as praias ensolaradas do Mediterrâneo. A Europa é lar de algumas das mais antigas civilizações do mundo, incluindo a Grécia e a Roma antiga, que influenciaram a arte, a arquitetura, a literatura e a filosofia em todo o mundo. A diversidade cultural do continente é evidente em suas inúmeras línguas, tradições e religiões. A Europa também é um importante centro econômico, com algumas das maiores empresas e instituições financeiras do mundo com sede no continente. Apesar de seus muitos sucessos, a Europa também enfrenta desafios significativos, incluindo questões relacionadas à migração, instabilidade política e mudanças climáticas. Ainda assim, a Europa continua a ser um continente fascinante e inspirador, repleto de história e cultura que atraem visitantes de todo o mundo."
         },
         {
             "id": 5,
@@ -208,42 +186,29 @@
             "countries": [
                 {
                     "country": "Australia",
-                    "image": ""
+                    "city": "Canberra",
+                    "image": "https://images.unsplash.com/photo-1510546020578-a35ae9fcfb0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=904&q=80",
+                    "flag": "fi fi-au"
                 },
                 {
                     "country": "New Zealand",
-                    "image": ""
-                },
-                {
-                    "country": "Papua New Guinea",
-                    "image": ""
-                },
-                {
-                    "country": "Fiji",
-                    "image": ""
-                },
-                {
-                    "country": "Solomon Islands",
-                    "image": ""
-                },
-                {
-                    "country": "Vanuatu",
-                    "image": ""
-                },
-                {
-                    "country": "New Caledonia",
-                    "image": ""
+                    "city": "Wellington",
+                    "image": "https://images.unsplash.com/photo-1541270941907-3f7143c8c7a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+                    "flag": "fi fi-nz"
                 },
                 {
                     "country": "French Polynesia",
-                    "image": ""
+                    "city": "Papeete",
+                    "image": "https://images.unsplash.com/photo-1672812407183-001d3533f49a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+                    "flag": "fi fi-pf"
                 }
             ],
             "amountDetails": {
                 "countries": 14,
                 "languages": 1000,
                 "cities": 41
-            }
+            },
+            "description": "A Oceania é um continente composto por vários arquipélagos e ilhas, com a Austrália e a Nova Zelândia como os países mais conhecidos. A região é caracterizada por sua rica diversidade biológica, com muitas espécies endêmicas de plantas e animais que não são encontradas em nenhum outro lugar do mundo. A Oceania é também um paraíso para os amantes do mar, com algumas das melhores praias, recifes de coral e locais de mergulho do mundo. Os povos indígenas da região, como os aborígenes australianos e os maoris da Nova Zelândia, têm uma cultura rica e antiga que é valorizada e respeitada. A Oceania é também um importante centro econômico, com a Austrália e a Nova Zelândia em particular desempenhando papéis significativos em setores como a mineração, a agricultura e o turismo. A região enfrenta desafios significativos, incluindo a ameaça das mudanças climáticas e a pressão para proteger sua diversidade biológica única. Ainda assim, a Oceania continua a ser um continente fascinante e inspirador, repleto de beleza natural, cultura rica e oportunidades econômicas."
         }
     ]
 }
