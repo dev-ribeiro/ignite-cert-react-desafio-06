@@ -7,6 +7,8 @@ import { Header } from '@/components/Header'
 import { AxiosResponse } from 'axios'
 import { CountryHighlight } from '@/components/CountryHighlight'
 import { CitiesPanel } from '@/components/CitiesPanel'
+import { CountryImage } from '@/utils/groups/CountryImage'
+import Head from 'next/head'
 
 interface Props {
     slug: string;
@@ -45,56 +47,49 @@ export default function ContinentPage({ slug }: Props) {
     const { image, name, description, amountDetails, countries } = data[0];
 
     return (
-        <Box
-            w="full"
-            paddingBottom="2.1875rem"
-            display="flex"
-            flex={1}
-            flexDirection="column"
-            bg="light.500"
-        >
-            <Header hasBackIcon />
+        <>
+            <Head>
+                <title>{name} | Worldtrip</title>
+            </Head>
             <Box
-                h="500px"
-                bgImage={`url(${image})`}
-                bgRepeat="no-repeat"
-                bgSize="cover"
-                objectFit="cover"
-                p="5rem"
+                w="full"
+                paddingBottom="2.1875rem"
+                display="flex"
+                flex={1}
+                flexDirection="column"
+                bg="light.500"
             >
-                <Heading
-                    maxW="1240px"
-                    h="100%"
-                    display="flex"
-                    alignItems="flex-end"
-                    color="light.900"
-                >
-                    {name}
-                </Heading>
-            </Box>
-            <Flex
-                my="5rem"
-                w="100%"
-                justifyContent="center"
-                alignItems="center"
-                gap="4.375rem"
-            >
-                <Text
-                    maxW="600px"
-                    fontSize="1.5rem"
-                    textAlign="justify"
-                >
-                    {description}
-                </Text>
-                <CountryHighlight
-                    {...amountDetails}
+                <Header hasBackIcon />
+                <CountryImage
+                    name={name}
+                    image={image}
                 />
-            </Flex>
-            <CitiesPanel
-                title="Cidades +100"
-                countries={countries}
-            />
-        </Box>
+                <Box
+                    my={["1.5rem", "1.5rem", "1.5rem", "5rem"]}
+                    w="100%"
+                    display="flex"
+                    flexDirection={["column", "column", "column", "row"]}
+                    justifyContent="center"
+                    alignItems="center"
+                    gap={["1rem", "4.375rem"]}
+                >
+                    <Text
+                        maxW={["343px", "343px", "600px"]}
+                        fontSize={["0.875rem", "0.875rem", "1.5rem"]}
+                        textAlign="justify"
+                    >
+                        {description}
+                    </Text>
+                    <CountryHighlight
+                        {...amountDetails}
+                    />
+                </Box>
+                <CitiesPanel
+                    title="Cidades +100"
+                    countries={countries}
+                />
+            </Box>
+        </>
     )
 }
 

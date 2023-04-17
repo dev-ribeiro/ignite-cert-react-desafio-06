@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Heading, Image, Stack, Text } from "@chakra-ui/react"
+import { Box, Flex, Grid, Heading, Image, Stack, Text, VStack } from "@chakra-ui/react"
 
 interface Props {
     title: string
@@ -12,32 +12,50 @@ interface Props {
 
 export function CitiesPanel({ title, countries }: Props) {
     return (
-        <Box maxW="1160px" mx="auto">
-            <Heading>{title}</Heading>
-            <Grid
-                gridTemplateColumns="repeat(4,1fr)"
+        <Box
+            my="2rem"
+            mx="auto"
+            maxW={["375px", "375px", "1160px"]}
+        >
+            <Heading
+                ml={["1rem", 0]}
+                fontSize="2.625rem"
+                fontWeight="medium"
+                color="dark.500"
+                textAlign={["center", "center", "start"]}
+            >
+                {title}
+            </Heading>
+            <Box
+                display="flex"
+                flexDir={["column", "row"]}
+                flexWrap={["nowrap", "wrap"]}
+                justifyContent={["center", "center", "space-around"]}
                 gap="2.8125rem"
                 mt="5rem"
             >
                 {countries.map(({ city, country, flag, image }) => (
-                    <Box key={city}>
+                    <Box
+                        borderWidth="1px"
+                        borderStyle="solid"
+                        borderColor="highlight"
+                        borderTopLeftRadius="4px"
+                        borderTopRadius="4px"
+                        overflow="hidden"
+                        key={city}
+                    >
                         <Image
                             src={image}
                             alt=""
-                            maxW="256px"
+                            w="256px"
                             h="173px"
-                            borderTopLeftRadius="4px"
-                            borderTopRadius="4px"
                         />
                         <Flex
                             justifyContent="space-between"
                             alignItems="center"
+                            p="1.5rem"
                         >
-                            <Box
-                                display="flex"
-                                flexDirection="column"
-                                gap="0.75rem"
-                            >
+                            <Stack gap="0.75rem">
                                 <Heading
                                     fontSize="1.25rem"
                                     fontWeight="semibold"
@@ -51,7 +69,7 @@ export function CitiesPanel({ title, countries }: Props) {
                                 >
                                     {city}
                                 </Text>
-                            </Box>
+                            </Stack>
                             <Box
                                 as="span"
                                 className={flag}
@@ -62,7 +80,7 @@ export function CitiesPanel({ title, countries }: Props) {
                         </Flex>
                     </Box>
                 ))}
-            </Grid>
+            </Box>
         </Box>
     )
 }
