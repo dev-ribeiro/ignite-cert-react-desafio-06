@@ -1,5 +1,4 @@
-import { Box } from '@chakra-ui/react'
-import Image from 'next/image'
+import { Box, Image } from '@chakra-ui/react'
 import logoImage from '../assets/logo.png'
 import Link from 'next/link'
 
@@ -10,7 +9,7 @@ interface Props {
 export function Header({ hasBackIcon }: Props) {
     return (
         <Box
-            maxW="1160px"
+            maxW={["375px", "1160px"]}
             w="100%"
             mx="auto"
             p={7}
@@ -33,9 +32,9 @@ export function Header({ hasBackIcon }: Props) {
                 </Box>
             )}
             <Image
-                src={logoImage}
-                width={184}
-                height={46}
+                src={logoImage.src}
+                width={["81px", "184px"]}
+                height={["20px", "45px"]}
                 alt='Imagem de logo escrita worldtrip'
             />
         </Box>
