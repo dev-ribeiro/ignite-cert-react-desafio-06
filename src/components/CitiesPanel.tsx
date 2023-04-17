@@ -46,7 +46,8 @@ export function CitiesPanel({ title, countries }: Props) {
                                 </Heading>
                                 <Text
                                     fontSize="1rem"
-                                    color="light.100"
+                                    fontWeight="medium"
+                                    color="dark.100"
                                 >
                                     {city}
                                 </Text>
