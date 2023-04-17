@@ -1,21 +1,18 @@
-import { Flex, FlexProps, Image } from "@chakra-ui/react"
+import { Box, BoxProps, Image } from "@chakra-ui/react"
 
-interface Props extends FlexProps {
+interface Props extends BoxProps {
     src: string
-    alt: string
 }
 
-export function Banner({ src, alt, ...props }: Props) {
+export function Banner({ src, ...props }: Props) {
     return (
-        <Flex
-            direction="column"
-            justifyContent="center"
+        <Box
+            w="100%"
+            h={["163px", "368px"]}
+            bgImage={src}
+            bgSize={["cover", "contain"]}
+            bgRepeat="no-repeat"
             {...props}
-        >
-            <Image
-                src={src}
-                alt={alt}
-            />
-        </Flex>
+        />
     )
 }
