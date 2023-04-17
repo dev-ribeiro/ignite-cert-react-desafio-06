@@ -32,6 +32,7 @@ export default function Home() {
       </Head>
       <Flex
         direction="column"
+        bg="light.500"
       >
         <Header />
         <Banner

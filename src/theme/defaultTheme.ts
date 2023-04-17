@@ -9,7 +9,7 @@ export const defaultTheme = {
         },
 
         dark: {
-            100: "#FFFFFF",
+            100: "#999999",
             500: "#47585B",
             900: "#000000"
         }
