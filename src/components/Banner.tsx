@@ -8,9 +8,9 @@ export function Banner({ src, ...props }: Props) {
     return (
         <Box
             w="100%"
-            h={["163px", "368px"]}
+            h={["163px", "163px", "368px"]}
             bgImage={src}
-            bgSize={["cover", "contain"]}
+            bgSize={["cover", "cover", "contain"]}
             bgRepeat="no-repeat"
             {...props}
         />
