@@ -8,12 +8,12 @@ export function OptionsPanel() {
         <VStack>
             <Flex
                 alignItems="stretch"
-                justifyContent={["center", "center", "space-around"]}
-                maxWidth={["275px", "275px", "1160px"]}
+                justifyContent={["center", "center", "center", "space-around"]}
+                maxWidth={["275px", "275px", "275px", "1160px"]}
                 margin="auto"
-                wrap={["wrap", "wrap", "nowrap"]}
-                gap={["4.4375rem", "4.4375rem", "8rem"]}
-                my={["2.25rem", "2.25rem", "5rem"]}
+                wrap={["wrap", "wrap", "wrap", "nowrap"]}
+                gap={["4.4375rem", "4.4375rem", "4.4375rem", "8rem"]}
+                my={["2.25rem", "2.25rem", "2.25rem", "5rem"]}
                 mx="auto"
             >
                 <OptionCard
